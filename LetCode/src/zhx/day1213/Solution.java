@@ -5,7 +5,7 @@ import java.util.HashSet;
  * 用HashSet判断数组是否重复
  * @author zhouhaixin
  *@version1.0
- *22222
+ *dfgzbs d
  */
 public class Solution {
 	public boolean containsDuplicate(int[] nums) {
