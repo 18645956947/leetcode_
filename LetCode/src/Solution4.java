@@ -1,12 +1,16 @@
 import java.sql.ResultSetMetaData;
 
 public class Solution4 {
-	
+	/**
+	 * letcode£º¼ÓÒ»
+	 * @param digits
+	 * @return
+	 */
 	public int[] plusOne(int[] digits) {
         int n = digits.length;
         for (int i = digits.length - 1; i >= 0; --i) {
             if (digits[i] < 9) {
-                ++digits[i];
+                digits[i]++;
                 return digits;
             }
             digits[i] = 0;
