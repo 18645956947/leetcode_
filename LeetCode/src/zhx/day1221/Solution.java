@@ -4,7 +4,8 @@ public class Solution {
 	/**
 	 * leetcode-字符串转换整数 (atoi)
 	 * @param str
-	 * @return
+	 * @return 
+	 * 1
 	 */
 	public int myAtoi(String str) {
 		//判断第一个整数元素下标
