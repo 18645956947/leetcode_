@@ -3,7 +3,11 @@ package zhx.day1219;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
+/**
+ * Map实现字符串中的第一个唯一字符
+ * @author lenovo
+ *
+ */
 public class Solution {
 	
 	public int firstUniqChar(String s) {
