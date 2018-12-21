@@ -4,6 +4,7 @@ package zhx.day1213;
  * 同时保持非零元素的相对顺序。
  * @author zhx
  *维护一个INDEX 用来记录非零元素
+ *1
  */
 public class Solution_01 {
 	
