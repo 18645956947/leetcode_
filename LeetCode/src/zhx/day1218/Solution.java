@@ -5,7 +5,11 @@ import java.util.List;
 import javax.swing.text.AbstractDocument.LeafElement;
 
 import java.util.ArrayList;
-
+/**
+ * 最长公共前缀
+ * @author lenovo
+ *
+ */
 public class Solution {
 	
 	public String longestCommonPrefix(String[] strs) {
