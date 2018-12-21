@@ -1,5 +1,9 @@
 package zhx.day1216;
-
+/**
+ * 反转整数
+ * @author lenovo
+ *
+ */
 public class Solution1 {
 	 public int reverse(int x) {
 	       long x1 = 0L;
