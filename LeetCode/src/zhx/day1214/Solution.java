@@ -1,7 +1,10 @@
 package zhx.day1214;
 
 public class Solution {
-	
+	/**
+	 * Ðý×ªÍ¼Ïñ
+	 * @param matrix
+	 */
 	public void rotate(int[][] matrix) {
         
     }
