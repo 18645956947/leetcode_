@@ -12,7 +12,7 @@ public class Solution {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		int len = 0;
 		ListNode tem = head;
-		while(tem.next != null) {
+		while(tem != null) {
 			len++;
 			tem = tem.next;
 		}
@@ -21,17 +21,17 @@ public class Solution {
 		}
 		//计算正向的位置m
 		int m = len-n+1;
-		if(m==1&&len==1) {
-			return null;
+		if(m==1) {
+			return head.next;
 		}
 		tem = head;
-		int k = 1;
+		int k = 0;
 		while(tem!=null) {
-			
-			if(k==m) {
+			k++;
+			if(k==m-1) {
 				tem.next = tem.next.next;
 			}
-            k++;
+            
 			tem = tem.next;
 		}
 		return head;
