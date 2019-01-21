@@ -9,7 +9,7 @@ import zhx.day20190108.TreeNode;;
 /** 
 * @author lenovo
 * @date 2019年1月21日下午8:28:07 
-* @Description: 
+* @Description: 二叉树的层次遍历
 */
 public class Solution {
 	public List<List<Integer>> levelOrder(TreeNode root) {
