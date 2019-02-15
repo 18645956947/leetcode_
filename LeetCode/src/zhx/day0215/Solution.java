@@ -7,7 +7,9 @@ import javax.print.attribute.standard.MediaName;
 /** 
 * @author lenovo
 * @date 2019年2月15日上午10:04:28 
-* @Description: 
+* @Description: 合并两个有序数组
+* 思路就是两个数组从后往前开始比较 大的就放在nums1数组的最后，以此类推，最后再判断下两个数组是否都为空，
+* 因为数组是有序的，所以直接把剩下的放在nums1中即可
 */
 public class Solution {
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
