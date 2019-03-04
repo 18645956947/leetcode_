@@ -4,7 +4,7 @@
 * @author lenovo
 * @date 2019年3月4日下午7:18:35 
 * @Description: 82. 删除排序链表中的重复元素 II
-* 采用双指针来删除链表
+* 采用双指针方法
 */
 public class DeleteDuplicates {
 	class ListNode {
