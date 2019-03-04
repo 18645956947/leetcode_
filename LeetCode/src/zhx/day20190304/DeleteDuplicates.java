@@ -4,7 +4,7 @@ package zhx.day20190304;
 * @author lenovo
 * @date 2019年3月4日下午4:27:02 
 * @Description: 83. 删除排序链表中的重复元素
-* 有序链表的去重（前一个与后一个相互比较）
+* 有序链表的去重（前一个与后一个相互比较）相对简单
 */
 public class DeleteDuplicates {
 	class ListNode {
