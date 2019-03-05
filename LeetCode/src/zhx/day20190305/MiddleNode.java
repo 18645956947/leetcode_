@@ -6,7 +6,7 @@ import zhx.day1224.ListNode;
 * @author lenovo
 * @date 2019年3月5日上午10:21:28 
 * @Description: 876. 链表的中间结点
-* 00
+* 
 */
 public class MiddleNode {
 	public ListNode middleNode(ListNode head) {
