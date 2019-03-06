@@ -11,7 +11,7 @@ import zhx.day1224.ListNode;
 * @Description: 141. 环形链表
 */
 public class HasCycle {
-	//解法一：采用快慢指针
+	//解法一：采用快慢指针时间的复杂度O(1),空间复杂度O(n)
 	public boolean hasCycle(ListNode head) {
         ListNode fast = head;
         ListNode slow  = head;
