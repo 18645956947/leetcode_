@@ -25,9 +25,9 @@ public class RemoveElements {
                 p = p.next;
         }
         return newNode.next;
-        
     }
 	public static void main(String[] args) {
+		//≤‚ ‘¥˙¬Î
 		ListNode node = new ListNode(1);
 		node.next = new ListNode(2);
 		node.next.next = new ListNode(6);
